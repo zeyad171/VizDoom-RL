@@ -1,0 +1,29 @@
+# Visual Studio / Python
+.vscode/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# System
+.DS_Store
+
+# RL Logs and Checkpoints
+train/
+logs/
+doom_logs/
+doom_models/
+doom_tensorboard/
+models/
+vizdoom_basic_tensorboard/
+vizdoom_tensorboard/
+
+# Models
+*.zip
+*.pt
+*.pth
